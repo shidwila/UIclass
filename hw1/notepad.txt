@@ -1,1 +1,1 @@
-version control-
+version control is a software tool that helps the software team to manage changes made to the source code.
