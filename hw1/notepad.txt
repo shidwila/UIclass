@@ -1,1 +1,10 @@
-version control is a software tool that helps the software team to manage changes made to the source code.
+Home work 3 -- December-20-2016
+
+1) how to resolve merge conflicts?
+--when you are trying to merge two branches in which the changes are made on same file then there occurs a merge conflict.
+  we have to try resolving this manually.first,we should shtop merging.
+2) what is html? how to create a html document?
+3) what is doctype?
+4) what is an tag and element in html?
+5) what is an attribute in html?
+6) create a simple html page? write code.
