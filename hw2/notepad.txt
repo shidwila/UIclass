@@ -1,0 +1,48 @@
+1) how to create a list in html? orderlists and un orderlists?
+   Lists are a simple and preferred way to show the things necessary.Instead of the break tag, lists can be used.There are different types of lists.Ordered lists and unordered lists.Un-ordered lists are bulleted lists.ordered lists are numbered lists.
+   Unorderd lists are in the elements <ul> and the list should be in <li>.same with the ordered lists.it should be in between <ol>
+
+2) how to include images in html?
+   Images can be uploaded on the web pages with the help og an image tag.Image tag doesn't have a closing tag.It contains attributes only.The attributes include src,alt and style.The 'src' attribute includes the url of the  image you want to include.The 'alt' attribute provides an alternate image of the image which is useful when you cannot find the image when the internet is slow connected.The style attribute is used for maintaining the desired width and height you want.
+   syntax for image tag: <img src="url" alt="text" style="width:number;height:number;">
+
+3) how to take user input in html?
+   The form element is used to collect the user input data.An html form conatins form elements.Form elements are different types of input types like text fields,check boxes,radio buttons,submit buttons and so on and so forth.
+   Based on the input you get to choose what to give as the input type.
+
+4) how to have links to different web pages and link to differnt part of same webpage?
+   HTML links are hyper links.These links are always found on all the webpages that takes us from one document to another document.
+   we can include a link in our html page using a <a> tag.The tag contains an attribute which holds the destinations address.
+   'href' is the attribute that holds the destinations address.
+   syntax for the html link is : <a href="url">text</a> 
+   Text is the visible part and we can click on it and go to the destined address.
+
+   when we want to put a link that resided in the same page, we go to the relative path which does not include the domain name(.com,.org,.edu , ...) because its in the same document.so,we need to keep the file name only.
+
+5) what is head, body, html element and why do we need them in the page?
+   Head is the essential part of the complete document that states the information that involves in the document.html headings are defined by <h1>, <h2>,....,<h6> tags.they are of different font and size than the rest of the document.It is the first part of the document after the doctype.
+
+   Body is the content of the document.It can be any thing .It can be text, images or charts.It includes different types of tags and attributes.we require body because it is the prime reason for creating a document.
+
+   element is the result of the opening tag +content + close tag.It is everything from open tag to close tag.It can be the heading or paragraph or anything 
+
+6) what are semantic element, descibe about each one of them.
+   Semantic elements are a kind of elements which carries the meaning in the name itself unlike the non-semantic elements.
+   It makes clear to both browser and developer describing the meaning.
+   there are a lot of semantic elements :
+
+   article element: it specifies the independent content that the document contains.It contains specific content which is irrelevent to other info.If the article is removed then there will be no traces of the entity.
+
+   sectionn element:This breaks the document into different sections or parts for a better understanding.
+
+   header element:This specifies the introduction to the web page or document or section.
+
+   footer element:It contains the author information,copy right content,contact info, and so on.
+
+   figure element:It contains the diagrams,figures or charts necessary to demonstrate the info
+
+   mark element: It defines the highlighted text or info.
+
+   nav element: it specifies th enavigational elements.
+
+

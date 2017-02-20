@@ -1,0 +1,76 @@
+1) explain all input types with examples
+
+   Input type text: this  defines a text field.we can enter the text we desire to enter.
+
+   Input type password:this defines the password field.
+
+   Input type checkbox:this allows the user to select from the options given.it can be one or more from the limited options.
+
+   Input type submit:it allows us to submit the input we desire to give which then is processed by the server.
+
+   Input type reset: this input type will reset all the values to its default value 
+
+   Input type radio: it gives an option to select.it is usually an yes or no option.we can only choose one option.
+
+   Input type button: this shows a button to click.we should click it in order to know the result.
+
+   Input type email: this allows us to give our email.depending on the browser support it can validate the email once submitted.
+
+   Input type date:  this allows us to choose the date.similar to the email input this shows the date picker depending on the browser support.
+
+   
+
+2) explain all the input attributes?
+
+  Value attribute: the value attribute is used to give the initial value to the input field.
+
+  disabled attribute : this specifies that the input field is disabled.
+
+  size attribute: this specifies the size for the inpur which is in characters.
+
+  maxlength  attribute: this specifies the maximum allowed length for the input field.
+
+  autofocus attribute: this specifies that the input field is automatically focused when the page loads
+
+  Height and width attribute: this specifies the height and width of an input element
+
+  minandmax attribute: this specifies the minimum and maximum range of input to be given for the input element.
+
+  this usually works for week,date,month,time,year and so on..
+
+  
+
+3) diff between article, section, div
+   There are few differences between the article, section and div elements.
+
+   The article element is independent info of the web page.It has no relation with the other info in the web page.If the article is removed then there will be no traces of the entity exists.
+
+   The section element divides the document into parts in order to organize for a better understanding .It is usually to make header,footer, navigation links,contact info and so on.
+
+   The div elemment on the other side has no special meaning at all.It works as a grouping agent for block elements.It comes into use when no semantic elements are appropriate.
+
+4) what are form and what is form validation in html?
+   HTML form element defines a form that is used to collect the input data.It contains various form elements to gather the input data.
+   It is better to validate the data in the web page itself rather than leaving it to the server.It involves lot of benifits.
+   we can use some kind of attributes inorder to validate.
+   we can use pattern attribute to validate the user input.we can also use the required attribute as well to validate the user input data.
+
+5) differences between html4 and html5? explain in more details.
+   Although html4 has been useful wonderfully there is more need after the inventions of smart phones.Then came html5 with robust,advanced and with more ease.There are few changes and differences which makes the use of html5 more easy.
+
+   General differences are:
+
+   simlified syntax: The first thing anyone would notice is that the lenth of the syntax.The length of html4 is too lengthy and too messy.The syntax for hmtl5 is simple which is just a word which is <!DOCTYPE html>
+
+   multimedia elements: html5 contains built in support for the multimedia elements for better understanding of audio and video features.previously in html4 there use to be third parties handling these features.
+
+   Accessing the geographical location of the user: Previously it was a hectic deal to access the user location visiting the file.But now in  html5 it is flexible to access the  location of the user.
+
+   client and server communication: In html4 there used to be long streaming while communicating between client and server.But on the contrary in html5 there is web sockets available which allows duplex commmunication between client and server.
+
+   Form validation: In html5 there is nothing like validating the data before the server.but html5 gives the facility to validate the data on the web page itself.
+
+   Graphic tags: graphic tags are created 
+
+   drag and drop attributes are created. 
+

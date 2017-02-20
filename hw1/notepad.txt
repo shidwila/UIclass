@@ -1,10 +1,36 @@
 Home work 3 -- December-20-2016
 
 1) how to resolve merge conflicts?
---when you are trying to merge two branches in which the changes are made on same file then there occurs a merge conflict.
-  we have to try resolving this manually.first,we should shtop merging.
+--> when you are trying to merge two branches in which the changes are made on same file then there occurs a merge conflict.
+    we have to try resolving this manually.There are few ways to resolve this.But before any step, first we should stop merging.
+    One step is,we can solve by right clicking on any conflicted file.It gives 2 choices.We can either resolve our(mine) code or 
+    other(their) code.Although there are many ways to correct the conflicted code,there is one particular method which is very 
+    flexible.That is using a code editor.When considering the conflicted file,the code with '<<<<<<<' Head to where it shows
+    '========' is the content that is from the current code.The code from where it shows '========' to '>>>>>>>>' is the code
+    from the incoming branch.
+    Now,go to the code editor and type in the text editor searching '<<<<<<<<',"=======",">>>>>>>".Make sure you delete those lines
+    and your code is resolved without any conflicts.Next we have to go back to the source tree and mark the 'unstaged file' as 'staged file' or you can right click the file and select merge conflicts--> mark resolved.
+
 2) what is html? how to create a html document?
+    HTML stands for Hyper Text Markup Language.It is the web language which is extensively used by web developers to develop web pages.
+    Html pages need to be in .html extension.In a text editor we can create a basic html page.we have to write the necessary code and we can create a web document
+
 3) what is doctype?
+    A doctype is nothing but an instruction to the web browser about what version of document to expect. A doctype is not a tag in html.
+    However a doctype is the first thing to go in a html page before the tag.Each html version has different type of doctype.It basically differs from version to version of html.
+
 4) what is an tag and element in html?
+   Any html document must start with a tag (after the doctype).A tag gives meaning to the document you are creating.Each tag has got its
+   own meaning and understanding.However,the interesting part is we are not able to see the tags in our web document.A tag starts with the '<' cahracter and ends with '>' character.There are two types of tags.open tag and closed tag.The only additional character in the closed tag is the '/' character.
+   The open tag---  <tagname>
+   The close tag--  </tagname>
+   
+   Element comes into existence when combining the two tags with content.
+   which is -->  element = opentag +content +closed tag. 
+   There are two types of elements.Inline elements and block elements.Inline elements come in the same line and block elements will come in a new line
+
 5) what is an attribute in html?
+   Tags sometimes have attributes,which are nothing but extra piece of information.An attribute is a part of element.It os usually resided in the open tag of the element and is used to define the characteristics of an html element.an attribute has two parts.name and value.name is the component you want to apply and value is the value of the component to be set that is usually put in quotatios.
+   
+
 6) create a simple html page? write code.
